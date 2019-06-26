@@ -1,0 +1,30 @@
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F6F6F6;
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+}
+
+#htmlcanvas {
+	position: absolute;
+}
+
+#tintOverlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 132, 0, 0.25)), to(rgba(255, 132, 0, 0.3)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 132, 0, 0.25), rgba(255, 132, 0, 0.3));
+    background-image: -moz-linear-gradient(top, rgba(255, 132, 0, 0.25), rgba(255, 132, 0, 0.3));
+    background-image: linear-gradient(to bottom, rgba(255, 132, 0, 0.25), rgba(255, 132, 0, 0.3));
+    overflow-x: hidden;
+}
