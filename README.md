@@ -3,3 +3,5 @@ A JavaScript implementation generating beautiful randomized fractal trees. For a
 
 ## example
 ![tree_img](https://github.com/olafvisker/fractaltree/blob/master/img/tree.png "Generated fractal tree")
+
+**enjoy!**
